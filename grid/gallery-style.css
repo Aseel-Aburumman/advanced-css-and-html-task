@@ -1,0 +1,88 @@
+.big-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 50vh;
+    margin: 3rem;
+    column-gap: 3rem;
+}
+
+.card{
+    display: grid;
+    height: auto;
+    grid-template-columns: 30% 25% 45%;
+    grid-template-rows: 10% 15% 40% 35%;
+    border: 0.5px solid rgb(122, 122, 122);
+    border-radius: 0.5rem;
+    align-content: center;
+
+
+}
+
+.pic1{
+    grid-area: 1/1/5/2 ;
+    background-image: url(https://i.natgeofe.com/n/2a832501-483e-422f-985c-0e93757b7d84/6_3x2.jpg);
+    background-size: cover;
+}
+
+.pic2{
+    grid-area: 1/1/5/2 ;
+    background-image: url(https://switzerland-tour.com/storage/media/4-ForArticles/swiss-mountains.jpg);
+    background-size: cover;
+}
+
+.pic3{
+    grid-area: 1/1/5/2 ;
+    background-image: url(https://images.unsplash.com/photo-1503424886307-b090341d25d1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+.smalltitle{ 
+    grid-area: 1/2/2/4; 
+    color: grey;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.bigtitle{ 
+    grid-area: 2/2/3/4 ;
+    font-weight: bolder;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+
+}
+.content{ 
+    grid-area: 3/2/4/4 ;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.profilepic{ 
+    grid-area: 4/2/5/3 ;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.name{ 
+    grid-area: 4/3/5/4 ;
+    padding: 1rem;
+    justify-content: start;
+    line-height: 0.8rem;
+    align-items: start;
+    justify-items: start;
+    align-content: start;
+    display: grid;
+
+    
+
+}
+
+.cardimg{
+    width: 80%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
