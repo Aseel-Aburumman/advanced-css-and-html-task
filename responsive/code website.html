@@ -1,60 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Website </title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="codewebsite.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Website</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="codewebsite.css" />
+    <script
+      src="https://kit.fontawesome.com/5009c5b097.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <!--the nav bar-->
 
     <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand " href="#"><img class= "navbarlogo" src="/responsive/pic/logo.svg"></a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li ><a href="#">Learn</a></li>            
-            <li><a href="#">Teach</a></li>
-            <li><a href="#">Distrects</a></li>
-            <li><a href="#">Stats</a></li>
-            <li><a href="#">Help us</a></li>
-            <li><a href="#">Incubator</a></li>
-            <li><a href="#">About</a></li>
-
-
-            </ul>
-            <button class="btn navbar-btn dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Create<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li class="dropdown-border"><a href="#"><img src="/responsive/pic/logo_spritelab.png">Speart lab</a></li>
-                  <li class="dropdown-border"><a href="#"><img src="/responsive/pic/logo_artist.png">Artists</a></li>
-                  <li class="dropdown-border"><a href="#"><img src="/responsive/pic/logo_applab_square.png">App lab</a></li>
-                  <li class="dropdown-border"><a href="#"><img src="/responsive/pic/logo_gamelab_square.png">game lab</a></li>
-                  <li class="dropdown-border"><a href="#"><img src="/responsive/pic/logo_dance.png">Dance party</a></li>
-                  <li class="dropdown-border"><a href="#"><img src="/responsive/pic/logo_music.png">Music lab</a></li>
-                  <li class="dropdown-border"><a href="#">View all project</a></li>
-                </ul>
-            </button>
-            <button class="btn  navbar-btn">Button</button>
-
-
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"
+            ><img class="navbarlogo" src="/responsive/pic/logo.svg"
+          /></a>
         </div>
-      </nav>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Learn</a></li>
+          <li><a href="#">Teach</a></li>
+          <li><a href="#">Distrects</a></li>
+          <li><a href="#">Stats</a></li>
+          <li><a href="#">Help us</a></li>
+          <li><a href="#">Incubator</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
 
+        <div class="navbar-header navbar-right help">
+          <i
+            class="fa-solid fa-circle-question fa-2xl"
+            style="color: #ffffff"
+          ></i>
+        </div>
+        <button class="btn navbar-btn mybtn navbar-right">Sign in</button>
+        <button class="btn navbar-btn dropdown mybtn navbar-right">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"
+            >Create<span class="caret"></span
+          ></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-border">
+              <a href="#"
+                ><img src="/responsive/pic/logo_spritelab.png" />Speart lab</a
+              >
+            </li>
+            <li class="dropdown-border">
+              <a href="#"
+                ><img src="/responsive/pic/logo_artist.png" />Artists</a
+              >
+            </li>
+            <li class="dropdown-border">
+              <a href="#"
+                ><img src="/responsive/pic/logo_applab_square.png" />App lab</a
+              >
+            </li>
+            <li class="dropdown-border">
+              <a href="#"
+                ><img src="/responsive/pic/logo_gamelab_square.png" />game
+                lab</a
+              >
+            </li>
+            <li class="dropdown-border">
+              <a href="#"
+                ><img src="/responsive/pic/logo_dance.png" />Dance party</a
+              >
+            </li>
+            <li class="dropdown-border">
+              <a href="#"
+                ><img src="/responsive/pic/logo_music.png" />Music lab</a
+              >
+            </li>
+            <li class="dropdown-border"><a href="#">View all project</a></li>
+          </ul>
+        </button>
+      </div>
+    </nav>
 
     <!--banner-->
     <section class="banner">
-        <div class="rightimage-banner"></div>
-        <div class="text4banner">
-            <h3>Introduction </h3>
-            <h1>Create music with code </h1>
-            <p>Gt creative with your favorite artist's music and code new songs </p>
+      <div class="text4banner">
+        <h3>
+          Introduction
+          <i class="fa-solid fa-music fa-xl" style="color: #ffffff"></i>&nbsp;<b
+            >Music Lab</b
+          >
+        </h3>
+        <h1 class="bannermargin"><b>Create music with code</b></h1>
+        <h4 class="bannermargin">
+          Gt creative with your favorite artist's <br />music and code new songs
+          and mixes !
+        </h4>
+        <div class="bannermargin">
+          <button
+            class="mybtnbanner"
+            style="background-color: white; color: black"
+          >
+            Try Music Lab
+          </button>
+          <button class="mybtnbanner">Learn more</button>
         </div>
-        <div class="leftimage-banner"></div>
+        <p>
+          In Partnership with
+          <img src="/responsive/pic/amazon_future_engineer_light.png" />
+        </p>
+      </div>
     </section>
-</body>
+
+    <!--numbers bars-->
+    <section class="numbers-bars">
+      <div>
+        <h4>
+          Every student in every school should have the opportunity to learn
+          computer science
+        </h4>
+        <div class="analatic">
+          <div class="cato">
+            <h1><b>92M</b></h1>
+            <h5>students on Code.org</h5>
+          </div>
+          <div class="cato">
+            <h1><b>39M</b></h1>
+            <h5>of our students are young women</h5>
+          </div>
+          <div class="cato">
+            <h1><b>304M</b></h1>
+            <h5>project created on Code.org</h5>
+          </div>
+          <div class="cato">
+            <h1><b>2M</b></h1>
+            <h5>teachers use Code.org</h5>
+          </div>
+          <div class="cato">
+            <h1><b>50</b></h1>
+            <h5>All 50 states computer science</h5>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="firstrows">
+            <div class="cardtitle1">
+              <b>Hour of Code</b><br />
+              Explore, play, and create!
+            </div>
+          </div>
+          <div class="rows1">
+            <p>Try the Hour of Code</p>
+            <p>About the Hour of Code</p>
+            <p>Host an Hour of Code</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="snsrows">
+            <div class="cardtitle2">
+              <b>Students </b><br />
+              Explore our courses
+            </div>
+          </div>
+          <div class="rows2">
+            <p>Elementary School</p>
+            <p>Middle school</p>
+            <p>Careers</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="thrdrows">
+            <div class="cardtitle3">
+              <b>Educators</b><br />
+              Teach your students
+            </div>
+          </div>
+          <div class="rows3">
+            <p>Elementary school</p>
+            <p>Middle school</p>
+            <p>High school</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="fthrows">
+            <div class="cardtitle4">
+              <b>Get involved </b><br />
+              Support diversity in computing
+            </div>
+          </div>
+          <div class="rows4">
+            <p>See the stats</p>
+            <p>Bring CS to your school</p>
+            <p>Donate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--alert bars-->
+
+    <section class="alert">
+      <h3>Over 304 million Code.org projects created</h3>
+    </section>
+    <!--game bars-->
+
+    <section class="games">
+      <div class="imggame1">.</div>
+      <div class="imggame2">.</div>
+    </section>
+
+    <!--thanks bar-->
+
+    <section class="thanks">
+      <h3>Code.org thanks</h3>
+      <h4>
+        Amazon • The Ballmer Group • Coinbase • Google.org • Charlie Lee •
+        Microsoft • Spiegel Family Fund • Vista Equity Partners
+      </h4>
+      <button class="thanksbtn">Donate</button>
+      <div><a href="">see more supporters</a></div>
+    </section>
+
+    <!--footer-->
+
+    <footer>
+      <div>
+        <div class="links">
+          <div class="spec"><a href=""> Privacy Police </a></div>
+          <div class="norm"><a href=""> | Cookie Notice | </a></div>
+          <div class="norm"><a href=""> About |</a></div>
+          <div class="norm"><a href=""> Partners |</a></div>
+          <div class="norm"><a href=""> Blog | </a></div>
+          <div class="norm"><a href=""> Store | </a></div>
+          <div class="norm"><a href=""> Support | </a></div>
+          <div class="norm"><a href=""> Terms | </a></div>
+        </div>
+        <p>
+          "© Code.org, 2024. Code.org®, the CODE logo, Hour of Code® and CS
+          Discoveries® are trademarks of Code.org." Built on GitHub from
+          Microsoft
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>
