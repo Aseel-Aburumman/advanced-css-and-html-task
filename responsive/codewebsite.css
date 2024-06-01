@@ -1,3 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 576px) {
+    .navbar-nav,
+    .navbar-header,
+    .dropdown,
+    .mybtn:not(.signin-btn) {
+      display: none !important;
+    }
+
+    .navbar-brand,
+    .navbar-toggler,
+    .signin-btn {
+      display: block !important;
+    }
+  }
+
+  /**************************************************************/
+
+
+
 .banner{
     display: flex;
     width: 100vw;
@@ -64,6 +89,56 @@ a{
 p > img{    width: 20vh;}
 
 .bannermargin{margin-bottom: 3rem;}
+
+@media (max-width: 576px) {
+.banner{
+    background: url(/responsive/pic/banner\ phone.webp);
+    background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.analatic{
+    flex-direction: column;
+    
+}
+.cato1{ flex: 100; }
+.cato2{ flex: 50%; }
+
+
+.cards{
+    flex-direction: column;
+}
+
+.games{
+    flex-direction: column;
+    height: 20vh;
+
+}
+.links{
+    visibility: hidden;
+}
+.footer{
+flex-direction: column-reverse;
+padding: 50px;
+}
+.rightfooter{
+    text-align: center; 
+}
+.leftfooter{
+    margin-top: 50px;
+flex-direction: column-reverse;
+}
+
+.logopadding{
+    padding: 10px;
+}
+
+#language{
+    width: 60%;
+}
+}
+
 /*************************************************************************************************************/
 .numbers-bars{
 text-align: center;
@@ -79,10 +154,25 @@ justify-content: center;
 
 /*************************************************************************************************************/
 
-.cato{
-    flex: 1;
+.cato1{
+    flex: 100%;
     font-weight: bold;
 }
+
+.cato2{
+    flex: 100%;
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .cato1{ flex: 100; }
+    .cato2{ flex: 50%; }
+
+
+}
+
+
+
 .cards{
     display: flex;
     width: 100%;
@@ -229,8 +319,9 @@ justify-content: center;
 }
 
 
-footer{
+.footer{
     background-color:#3f444b;
+    color: white;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -243,5 +334,16 @@ footer{
 .links{
     display: flex;
     width: 100%;
-
 }
+
+.footerpic{
+    width: 190px;
+}
+#language{
+    color: black;
+}
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+}
+
